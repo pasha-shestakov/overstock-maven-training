@@ -4,7 +4,6 @@ import org.joda.time.Days;
 import org.joda.time.LocalDate;
 
 public class BlackFridayUtils {
-    //TODO: Get days until black friday
     public static int DaysToBlackFriday () {
         LocalDate today = LocalDate.now();
         return Days.daysBetween(today, new LocalDate("2022-11-25")).getDays();
