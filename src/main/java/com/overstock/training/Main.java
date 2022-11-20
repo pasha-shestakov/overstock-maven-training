@@ -1,7 +1,10 @@
 package com.overstock.training;
 
+import org.joda.time.Days;
+
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hello World !");
+        int daysTillBlackFriday = BlackFridayUtils.DaysToBlackFriday();
+        System.out.println(daysTillBlackFriday);
     }
 }
